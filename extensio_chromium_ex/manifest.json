@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Extensió Exemple",
+    "short_name": "Exemple",
+    "description": "Exemple d'extensió",
+    "version": "1.0",
+    "action": {
+        "default_popup": "inici.html",
+        "default_icon": "dog1.png"
+    },
+    "permissions": [
+        "activeTab", "scripting", "tabs"
+    ]
+}

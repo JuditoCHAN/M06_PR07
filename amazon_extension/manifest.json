@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Extensión Amazon",
+    "short_name": "Exemple",
+    "description": "Extensión para mostrar el precio más bajo en Amazon y los detalles de los productos",
+    "version": "1.0",
+    "action": {
+        "default_popup": "amazon.html",
+        "default_icon": "amz.png"
+    },
+    "permissions": [
+        "activeTab", "scripting", "tabs"
+    ]
+}
