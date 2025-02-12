@@ -2,7 +2,7 @@ function changeColor(color) {
     document.body.style.backgroundColor = color;
     console.log("Color canviat a " + color);
 
-    const gmailLink = document.querySelector("a.gb_W");
+    const gmailLink = document.querySelector("a.gb_X");
     if(gmailLink) {
         gmailLink.innerText = "💮 GMAIL 💮";
     }
